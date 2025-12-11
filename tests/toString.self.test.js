@@ -4,7 +4,6 @@ These tests correspond exactly to Test Cases 01–05 defined in the plan.
 NOTE:
   - Our Phase 1 plan expected null → "" (empty string)
   - The actual implementation returns "null"
-  - The test is updated to match real behavior
 */
 
 import chai from "chai";
@@ -31,8 +30,8 @@ describe("toString – Self-Planned Test Suite (Phase 1)", () => {
   });
 
   // Test 04: Null → "null"
-  it("should convert null to the string 'null'", () => {
-    expect(toString(null)).to.equal("null");
+  it("should convert null to empty string ''", () => {
+    expect(toString(null)).to.equal("");
   });
 
   // Test 05: Array converts to comma-separated string
