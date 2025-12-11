@@ -35,3 +35,6 @@ Thumbs.db
 
 # Ignore internal library folder (assignment says don't test it)
 library/src/.internal/
+
+!.github/   
+!.github/**  
