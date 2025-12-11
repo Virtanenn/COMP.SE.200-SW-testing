@@ -1,9 +1,6 @@
 /*
 Self-planned unit tests for toString(), based on Phase 1 test design.
 These tests correspond exactly to Test Cases 01–05 defined in the plan.
-NOTE:
-  - Our Phase 1 plan expected null → "" (empty string)
-  - The actual implementation returns "null"
 */
 
 import chai from "chai";
@@ -29,7 +26,7 @@ describe("toString – Self-Planned Test Suite (Phase 1)", () => {
     expect(toString(value)).to.equal("-0");
   });
 
-  // Test 04: Null → "null"
+  // Test 04: Null should produce empty string
   it("should convert null to empty string ''", () => {
     expect(toString(null)).to.equal("");
   });
