@@ -1,5 +1,8 @@
 "# COMP.SE.200-SW-testing" 
 
+Coveralls coverage status badge:
+[![Coverage Status](https://coveralls.io/repos/github/Virtanenn/COMP.SE.200-SW-testing/badge.svg?branch=main)](https://coveralls.io/github/Virtanenn/COMP.SE.200-SW-testing?branch=main)
+
 This GitHub repository was created for the COMP.SE.200 Software Testing course. Its purpose is to implement automated unit tests for the JavaScript utility library provided in the course materials. The library under test is included in this project as a Git submodule and can be found as:
 
 library
