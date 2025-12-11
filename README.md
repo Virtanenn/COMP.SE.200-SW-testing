@@ -1,4 +1,4 @@
-"# COMP.SE.200-SW-testing" 
+# COMP.SE.200-SW-testing 
 
 Coveralls coverage status badge:
 [![Coverage Status](https://coveralls.io/repos/github/Virtanenn/COMP.SE.200-SW-testing/badge.svg?branch=main)](https://coveralls.io/github/Virtanenn/COMP.SE.200-SW-testing?branch=main)
