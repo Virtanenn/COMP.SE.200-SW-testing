@@ -36,6 +36,8 @@ jobs:
         run: npm test
         # Upload to Coveralls
       - name: Upload coverage to Coveralls
+        # run Coveralls even if tests fail
+        if: ${{ always() }}
         uses: coverallsapp/github-action@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
